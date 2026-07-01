@@ -119,12 +119,14 @@ textarea {
 .hero-copy h1,
 .section-header h2 {
     font-size: clamp(2.8rem, 4vw, 4.2rem);
-    line-height: 1.02;
+    line-height: 1.16;
     margin: 0;
     letter-spacing: -0.03em;
 }
 
 .hero-copy h1 {
+    display: inline-block;
+    padding-bottom: 0.12em;
     background: linear-gradient(90deg, rgba(193, 161, 112, 1), rgba(140, 107, 68, 1));
     -webkit-background-clip: text;
     color: transparent;
